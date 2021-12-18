@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#formContainer input {
+  margin: 10px;
+}
+#resultsContainer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+table, td, th {
+  border: 1px solid #333333;
+}
+th {
+  background-color: #eee;
+  padding: 4px;
+}
+
+td {
+  padding: 5px;
+}
+
+#buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 100px;
+  margin: 10px;
+}
+
+#progressBarContainer {
+  width: 50%;
+}
+#progressBar {
+  width: 100%;
+  border: 1px solid black;
+}
+#progress {
+  box-sizing: border-box;
+  width: 0%;
+  padding: 10px;
+  margin: 0;
+  background-color: #333333;
+}
