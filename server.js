@@ -88,8 +88,8 @@ function getContractObj() {
   return contractObj;
 }
 
-// updateIsClaimedData();
-// updateOpenSeaData();
+updateIsClaimedData();
+updateOpenSeaData();
 
 async function updateOpenSeaData() {
   let offset = 50;
